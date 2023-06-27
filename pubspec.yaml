@@ -1,11 +1,11 @@
 name: bluetooth_thermal_printer
 description: The library allows printing receipts using a Bluetooth printer(Android Only).
-version: 0.0.6
+version: 1.0.0
 homepage: https://github.com/Rajath4/BluetoothThermalPrinter.git
 repository: https://github.com/Rajath4/BluetoothThermalPrinter.git
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=2.15.0 <4.0.0"
   flutter: ">=1.20.0"
 
 dependencies:
