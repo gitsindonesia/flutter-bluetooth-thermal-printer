@@ -1,13 +1,14 @@
-group 'com.peoplewareinnovations.bluetooth_thermal_printer'
-version '1.0-SNAPSHOT'
-
 plugins {
     id "com.android.library"
     id "org.jetbrains.kotlin.android"
 }
 
+
+group = "com.peoplewareinnovations.bluetooth_thermal_printer"
+version = "1.0-SNAPSHOT"
+
 android {
-    namespace "com.peoplewareinnovations.bluetooth_thermal_printer"
+    namespace = "com.peoplewareinnovations.bluetooth_thermal_printer"
     compileSdk = 35
 
     defaultConfig {
